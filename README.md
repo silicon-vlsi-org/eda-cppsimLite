@@ -1,5 +1,6 @@
-# CppSimLite
-**CppSimLite** is stripped down version of **CppSim**, (http://cppsim.com) developed by Mike Perrott for mixed-signal system and circuit modeling. Although CppSim is a suite of tools for doing mixed-signal simulation, CppSimLite is only for using the schematic editor **Sue2** and it's accompanying toolboxes for Python and HSPC.
+# Sue2 Schematic Editor
+###
+**Sue2Plus** is sue2, python/Matlab/octave libs extracted from Mike Perrott's [CppSim](http://cppsim.com), a platform for mixed-signal simulation. 
 
 - **Directory Structure**
 ```bash
