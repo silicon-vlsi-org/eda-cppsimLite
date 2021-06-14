@@ -1,4 +1,4 @@
-# Sue2 Schematic Editor Plus Python/Octave/Matlab Libs
+# Sue2 Schematic Editor 
 ### Current distribution version 2.1 
 **Sue2Plus** is sue2, python/Matlab/octave libs extracted from Mike Perrott's [CppSim](http://cppsim.com), a platform for mixed-signal simulation. 
 
