@@ -1,8 +1,27 @@
-# Sue2 Schematic Editor
-###
+# Sue2 Schematic Editor Plus Python/Octave/Matlab Libs
+### Current distribution version 2.1 
 **Sue2Plus** is sue2, python/Matlab/octave libs extracted from Mike Perrott's [CppSim](http://cppsim.com), a platform for mixed-signal simulation. 
 
-- **Directory Structure**
+## Downloading & Setting Up sue2Plus
+
+- Change directory ```cd``` to install directory <INSTALL_DIR> e.g. ```/home/user/cad```
+- To download from the ```git``` repository:
+  - ```git clone https://github.com/silicon-vlsi-org/eda-sue2Plus```
+- Change directory to the installed sue2Plus directory eg. ```cd eda-sue2Plus```
+- Checkout the desired version: ```git checkout v2.1```
+  - To make sure you are on the right version type ```git branch``` and your output should have a line like this :
+  - ```* (HEAD detached at v2.1)```
+
+- Add the following environment variables in your `~/.bashrc` 
+
+```bash
+export CPPSIMHOME=<INSTALL_DIR>/eda-sue2Plus
+export CPPSIMSHAREDHOME=$CPPSIMHOME/CppSimShared
+export EDITOR=/usr/bin/vim
+export PATH=$PATH:$CPPSIMSHAREDHOME/bin
+```
+
+- After installation your should see the following **Directory Structure**
 ```bash
 CppSimLite
 ├── CHANGES.md				;Changes made to CppSim
@@ -25,15 +44,7 @@ CppSimLite
 └── Todo-Bugs.md			;Keeping tracks of Bugs and Todos
 ```
 
-- Setting the Environment Variables in `~/.bashrc`
-
-```bash
-export CPPSIMHOME=$HOME/project2020/eda/CppSimLite
-export CPPSIMSHAREDHOME=$CPPSIMHOME/CppSimShared
-export EDITOR=/usr/bin/vim
-export PATH=$PATH:$CPPSIMSHAREDHOME/bin
-```
-## Sue2
+## Getting Started with Sue2
 - Once the environment variables are set, Sue2 can be started by typing
 ```bash
 sue2
